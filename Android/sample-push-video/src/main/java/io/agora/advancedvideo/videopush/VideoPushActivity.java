@@ -13,6 +13,7 @@ import android.view.TextureView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -88,7 +89,8 @@ public class VideoPushActivity extends BaseLiveActivity
         ));
 
         rtcEngine().setExternalVideoSource(true, true, true);
-        rtcEngine().joinChannel(token(), config().getChannelName(), null, 0);
+        Toast.makeText(this, ""+ config().getChannelName(), Toast.LENGTH_SHORT).show();
+        rtcEngine().joinChannel(null, config().getChannelName(), null, 0);
     }
 
     private void setupLocalPreview() {

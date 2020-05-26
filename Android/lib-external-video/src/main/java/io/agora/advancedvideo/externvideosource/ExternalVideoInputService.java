@@ -10,7 +10,6 @@ import android.content.pm.ServiceInfo;
 import android.os.Build;
 import android.os.IBinder;
 import android.os.RemoteException;
-
 import androidx.annotation.Nullable;
 
 import io.agora.advancedvideo.AgoraApplication;

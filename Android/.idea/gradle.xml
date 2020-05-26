@@ -13,8 +13,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/lib-component" />
             <option value="$PROJECT_DIR$/lib-external-video" />
+            <option value="$PROJECT_DIR$/lib-raw-data" />
             <option value="$PROJECT_DIR$/sample-custom-render" />
             <option value="$PROJECT_DIR$/sample-push-video" />
+            <option value="$PROJECT_DIR$/sample-raw-data" />
             <option value="$PROJECT_DIR$/sample-switch-external-video" />
             <option value="$PROJECT_DIR$/sample-video-encrypt" />
           </set>

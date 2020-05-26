@@ -51,7 +51,7 @@ public class RawDataActivity extends BaseLiveActivity implements MediaDataVideoO
         initView();
         setVideoConfig();
         setupLocalVideo();
-        rtcEngine().joinChannel(token(), config().getChannelName(), null, 0);
+        rtcEngine().joinChannel(null, config().getChannelName(), null, 0);
     }
 
     private void initView() {
